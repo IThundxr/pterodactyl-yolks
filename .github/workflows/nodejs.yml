@@ -40,5 +40,3 @@ jobs:
           file: ./nodejs/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            ghcr.io/IThundxr/pterodactyl-yolks:nodejs_${{ matrix.tag }}

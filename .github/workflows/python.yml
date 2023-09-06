@@ -39,5 +39,3 @@ jobs:
           file: ./python/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64, linux/arm64
           push: true
-          tags: |
-            ghcr.io/IThundxr/pterodactyl-yolks:python_${{ matrix.tag }}
