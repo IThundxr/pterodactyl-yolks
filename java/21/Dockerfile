@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2023 IThundxr
+# Copyright (c) 2023 ithundxr
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH openjdk:21-jdk
 
-LABEL       author="IThundxr" maintainer="contact@IThundxr.dev"
+LABEL       author="ithundxr" maintainer="contact@ithundxr.dev"
 
-LABEL       org.opencontainers.image.source="https://github.com/IThundxr/pterodactyl-yolks"
+LABEL       org.opencontainers.image.source="https://github.com/ithundxr/pterodactyl-yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \
