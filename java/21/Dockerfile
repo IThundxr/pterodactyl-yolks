@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH openjdk:21-jdk
+FROM        --platform=$TARGETOS/$TARGETARCH openjdk:21-jdk-bullseye
 
 LABEL       author="ithundxr" maintainer="contact@ithundxr.dev"
 
