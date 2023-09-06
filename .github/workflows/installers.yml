@@ -68,3 +68,5 @@ jobs:
           file: ./installers/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64
           push: true
+          tags: |
+            ghcr.io/pterodactyl/installers:${{ matrix.tag }}

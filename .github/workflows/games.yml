@@ -34,3 +34,5 @@ jobs:
           file: ./games/${{ matrix.game }}/Dockerfile
           platforms: linux/amd64
           push: true
+          tags: |
+            ghcr.io/pterodactyl/games:${{ matrix.game }}
