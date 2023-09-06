@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH openjdk:21-jdk
 
-LABEL       author="IThundxr" maintainer="contact@ithundxr.dev"
+LABEL       author="IThundxr" maintainer="contact@IThundxr.dev"
 
-LABEL       org.opencontainers.image.source="https://github.com/ithundxr/pterodactyl-yolks"
+LABEL       org.opencontainers.image.source="https://github.com/IThundxr/pterodactyl-yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \
