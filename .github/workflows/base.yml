@@ -36,4 +36,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/ithundxr/pterodactyl-yolks:${{ matrix.oses }}
+            ghcr.io/prismsmp/pterodactyl-yolks:${{ matrix.oses }}

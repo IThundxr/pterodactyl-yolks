@@ -24,7 +24,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH openjdk:21-jdk-bullseye
 
 LABEL       author="ithundxr" maintainer="contact@ithundxr.dev"
 
-LABEL       org.opencontainers.image.source="https://github.com/ithundxr/pterodactyl-yolks"
+LABEL       org.opencontainers.image.source="https://github.com/prismsmp/pterodactyl-yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \
