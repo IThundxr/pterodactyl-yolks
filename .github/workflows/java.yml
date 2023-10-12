@@ -8,8 +8,7 @@ on:
       - master
     paths:
       - java/**
-permissions:
-    packages: write
+permissions: write-all
 jobs:
   push:
     name: "yolks:java_${{ matrix.tag }}"
